@@ -1,0 +1,109 @@
+// Import variables
+@use "../abstract/variables" as *;
+// Import font family
+@font-face {
+  font-family: "Inter";
+  src: url("../../fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+%hover-orange {
+  &:hover {
+    color: $soft-orange !important;
+  }
+  transition: 0.3s;
+}
+%hover-red {
+  &:hover {
+    color: $soft-red !important;
+  }
+  transition: 0.3s;
+}
+
+/* Typography */
+body {
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+}
+nav {
+  .menu {
+    .links {
+      li {
+        a {
+          color: $dark-grayish-blue;
+          font-weight: 500;
+          font-size: 1rem;
+          @extend %hover-red;
+        }
+      }
+    }
+  }
+}
+h1 {
+  font-size: 3.1rem;
+  color: $very-dark-blue;
+}
+h2 {
+  color: $soft-orange;
+}
+h3 {
+  a {
+    color: $off-white;
+    @extend %hover-orange;
+  }
+}
+h4 {
+  a {
+    color: $very-dark-blue;
+    font-size: 1.05rem;
+    @extend %hover-red;
+  }
+}
+.current-article {
+  p {
+    color: $dark-grayish-blue;
+    font-weight: 500;
+  }
+  a {
+    background-color: $soft-red;
+    color: $off-white;
+    border-radius: 0;
+    letter-spacing: 1.5px;
+    padding: 10px 35px;
+    &:hover {
+      background-color: $very-dark-blue;
+      color: $off-white;
+    }
+  }
+}
+aside {
+  article {
+    &:not(:last-of-type) {
+      border-bottom: 1px solid $dark-grayish-blue;
+    }
+    p {
+      color: $grayish-blue;
+    }
+  }
+}
+section.next-articles {
+  article {
+    span {
+      color: $grayish-blue;
+    }
+    p {
+      margin: 0;
+      color: $dark-grayish-blue;
+    }
+  }
+}
+footer {
+  a {
+    &:first-child {
+      color: $dark-grayish-blue;
+      @extend %hover-orange;
+    }
+    &:last-child {
+      color: $very-dark-blue;
+      @extend %hover-red;
+    }
+  }
+}

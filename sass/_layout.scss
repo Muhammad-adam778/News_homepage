@@ -1,0 +1,62 @@
+// Import variables
+@use "./abstract/variables" as *;
+
+/* Navigation */
+nav {
+  @media (max-width: 991px) {
+    &.blur {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: hsl(240deg 100% 5% / 50%);
+      img.open-menu {
+        display: none !important;
+      }
+    }
+  }
+  .menu {
+    @media (max-width: 991px) {
+      position: fixed;
+      top: 0;
+      right: 0;
+      background-color: $off-white;
+      width: 0;
+      height: 100%;
+      padding-left: 0;
+      padding-top: 120px;
+      transition: 0.3s width;
+      overflow: hidden;
+      img {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+      }
+      ul {
+        li {
+          padding: 15px 0;
+          a {
+            color: $very-dark-blue !important;
+          }
+        }
+      }
+      &.open {
+        width: 250px;
+        padding-left: 25px;
+      }
+    }
+  }
+}
+
+aside {
+  background-color: $very-dark-blue;
+}
+
+section.next-articles {
+  article {
+    img {
+      width: 110px;
+    }
+  }
+}

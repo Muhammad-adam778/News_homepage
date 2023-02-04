@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- Main css file -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>News homepage</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="pt-3 pb-3 pt-md-5 pb-md-5 mt-md-5">
+        <div class="d-flex justify-content-between align-items-center">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" alt="logo" />
+          </a>
+          <nav class="d-flex">
+            <img
+              src="./assets/images/icon-menu.svg"
+              alt="open-menu"
+              role="button"
+              class="open-menu d-block d-lg-none"
+            />
+            <div class="menu">
+              <img
+                src="./assets/images/icon-menu-close.svg"
+                alt="close-menu"
+                role="button"
+                class="close-menu d-block d-lg-none"
+              />
+              <ul class="links d-lg-flex p-0 m-0 gap-5">
+                <li><a href="#">Home</a></li>
+                <li><a href="#new">New</a></li>
+                <li><a href="#popular">Popular</a></li>
+                <li><a href="#trending">Trending</a></li>
+                <li><a href="#categories">Categories</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <section class="row mb-5">
+        <div class="col-md-8">
+          <article class="current-article mb-5 mb-md-0">
+            <picture>
+              <source
+                srcset="./assets/images/image-web-3-desktop.jpg"
+                media="(min-width: 768px)"
+              />
+              <img
+                src="./assets/images/image-web-3-mobile.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </picture>
+            <div class="text row pt-4 justify-content-between">
+              <div class="col-lg-6">
+                <h1 class="fw-bold pe-xl-4">The Bright Future of Web 3.0?</h1>
+              </div>
+              <div class="col-lg-6">
+                <p class="lh-lg pe-2 mb-4">
+                  We dive into the next evolution of the web that claims to put
+                  the power of the platforms back into the hands of the people.
+                  But is it really fulfilling its promise?
+                </p>
+                <a href="#" class="btn text-uppercase radius-0 fw-bold"
+                  >Read more</a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <aside class="p-4">
+            <h2 class="fw-bold mb-4">New</h2>
+            <article class="mb-4">
+              <h3 class="fw-bold fs-5">
+                <a href="#">Hydrogen VS Electric Cars</a>
+              </h3>
+              <p class="lh-lg">
+                Will hydrogen-fueled cars ever catch up to EVs?
+              </p>
+            </article>
+            <article class="mb-4">
+              <h3 class="fw-bold fs-5">
+                <a href="#">The Downsides of AI Artistry</a>
+              </h3>
+              <p class="lh-lg">
+                What are the possible adverse effects of on-demand AI image
+                generation?
+              </p>
+            </article>
+            <article class="mb-4">
+              <h3 class="fw-bold fs-5">
+                <a href="#">Is VC Funding Drying Up?</a>
+              </h3>
+              <p class="lh-lg">
+                Private funding by VC firms is down 50% YOY. We take a look at
+                what that means.
+              </p>
+            </article>
+          </aside>
+        </div>
+      </section>
+      <section class="row next-articles gy-4 pb-md-5 mb-5">
+        <div class="col-md-6 col-xl-4">
+          <article class="d-flex gap-4">
+            <img
+              src="./assets/images/image-retro-pcs.jpg"
+              alt=""
+              class="img-fluid"
+            />
+            <div class="text">
+              <span class="fw-bold fs-2">01</span>
+              <h4 class="fw-bold"><a href="#">Reviving Retro PCs</a></h4>
+              <p>What happens when old PCs are given modern upgrades?</p>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-6 col-xl-4">
+          <article class="d-flex gap-4">
+            <img
+              src="./assets/images/image-top-laptops.jpg"
+              alt=""
+              class="img-fluid"
+            />
+            <div class="text">
+              <span class="fw-bold fs-2">02</span>
+              <h4 class="fw-bold"><a href="#">Top 10 Laptops of 2022</a></h4>
+              <p>Our best picks for various needs and budgets.</p>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-6 col-xl-4">
+          <article class="d-flex gap-4">
+            <img
+              src="./assets/images/image-gaming-growth.jpg"
+              alt=""
+              class="img-fluid"
+            />
+            <div class="text">
+              <span class="fw-bold fs-2">03</span>
+              <h4 class="fw-bold"><a href="#">The Growth of Gaming</a></h4>
+              <p>How the pandemic has sparked fresh opportunities.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <footer class="attribution text-center fs-6 ps-5 pe-5 mb-2">
+        Challenge by
+        <a
+          class="fw-bold"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a
+          class="fw-bold"
+          href="https://www.github.com/Muhammad-adam778"
+          target="_blank"
+          >Muhammad</a
+        >.
+      </footer>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
