@@ -16,4 +16,4 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 ### Author
 
 - Frontend Mentor - [@Muhammad-adam778](https://www.frontendmentor.io/profile/Muhammad-adam778)
-- Linkedin - [@Muhammad-adam778](https://www.linkedin.com/in/Muhammad-adam778)
+- Linkedin - [@muhammad-abdusalam](https://www.linkedin.com/in/muhammad-abdusalam)
