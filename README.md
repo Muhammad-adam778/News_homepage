@@ -4,7 +4,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
 
 ![Desktop_view](./screenshot/homepage.png)
 
-- **Live Site URL**: https://muhammad-adam778.github.io/News_homepage/
+- **Live Site URL**: https://muhammad-abdusalam.github.io/News_homepage/
 
 ### Built with ⚒️
 
